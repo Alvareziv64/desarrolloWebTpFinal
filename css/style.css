@@ -1,0 +1,94 @@
+/* variables */
+.just-center, .flex-column {
+  display: flex;
+  justify-content: center; }
+
+.flex-column {
+  flex-direction: column; }
+
+.imgResp {
+  width: 100%;
+  height: auto; }
+
+/* header y nav de bootstrap */
+header {
+  background-color: #1e1e1e; }
+  header div {
+    /* a este div le doy J.C. center para dejar el logo en el centro
+                pero no se porque tambien me afecta al contenido de la nav de bs */
+    display: flex;
+    justify-content: center; }
+    header div img {
+      width: 13%;
+      height: auto; }
+  header nav div {
+    width: 100%; }
+
+/* MAIN */
+main {
+  background-color: #a1a1a1; }
+
+.h1tittle {
+  position: relative;
+  bottom: 120px;
+  font-family: montserrat;
+  color: white; }
+
+.div__crsl {
+  height: 200px; }
+
+/* boton para el baner principal */
+.div__boton {
+  height: 0px; }
+
+.botonNaranja, .botonImagen {
+  height: 45px;
+  width: 150px;
+  background-color: #bc7500;
+  text-decoration: none;
+  color: white;
+  padding-top: 11px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: montserrat;
+  border-radius: 12px; }
+
+.botonImagen {
+  position: relative;
+  bottom: 80px; }
+
+/* Divisor de productos destacados index */
+.divisor {
+  font-family: montserrat;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #1e1e1e;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px; }
+
+.grilla {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+
+.div__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.img-sobre {
+  width: 40%;
+  height: auto; }
+
+/* Footer */
+footer {
+  height: 100px;
+  background-color: black; }
