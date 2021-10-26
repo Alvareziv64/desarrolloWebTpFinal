@@ -1,22 +1,6 @@
   /* variables */
 
-  $colorBg: rgb(30, 30, 30);
-
-  .just-center{
-      display: flex;
-      justify-content: center;
-  }
-  
-  .flex-column{
-      display: flex;
-      flex-direction: column;
-  }
-  
-  .resp{
-      width: 100%;
-      height: auto;
-  }
-  
+@import "variables.scss";
   
     /* Nav Bar */
   
@@ -90,6 +74,7 @@
       padding-top: 11px;
       font-family: montserrat;
       border-radius: 12px;
+      margin-bottom: 30px;
   }
   
   .boton-naranja:hover{
@@ -129,7 +114,7 @@
         display: flex;
         justify-content: space-around;
          background-color: rgb(15, 15, 15);
-         margin-top: 35px;
+         margin-top: 0px;
          padding-top: 10px;
          padding-bottom: 0px;
      }
@@ -232,5 +217,12 @@
             width: 35px;
             height: 35px;
         }
+
+        .info-text{
+               p{
+                   margin: 5px, 10px, 5px, 10px;
+               }
    
-}
+        }
+
+  }

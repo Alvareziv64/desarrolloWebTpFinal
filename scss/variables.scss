@@ -1,0 +1,40 @@
+$colorBg: rgb(30, 30, 30);
+
+.just-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+
+/* banner secciones */ 
+
+.banner-text{
+    @extend .hero-text;
+    height: auto;
+}
+
+   .banner-title-bg{
+    @extend .hero-title-bg;
+    padding-top: 5px;
+}
+
+   .banner-image{
+
+    position: relative;
+    margin-bottom: 25px;
+    
+}
+
+   .banner-title{
+    @extend .hero-title;
+    font-size: 28px;
+}
