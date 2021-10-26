@@ -91,8 +91,8 @@ main {
   justify-content: space-around;
   background-color: #0f0f0f;
   margin-top: 35px;
-  padding-top: 20px;
-  padding-bottom: 10px; }
+  padding-top: 10px;
+  padding-bottom: 0px; }
 
 .info-img {
   width: 65px;
@@ -105,7 +105,8 @@ main {
   color: #fff; }
   .info-text p {
     margin-top: 10px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-bottom: 10px; }
 
 .info-link:hover {
   transform: scale(1.05, 1.05); }
