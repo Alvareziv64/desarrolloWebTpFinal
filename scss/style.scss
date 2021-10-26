@@ -1,54 +1,12 @@
-/* variables */
-$colorBg: rgb(30, 30, 30);
-
-.just-center{
-    display: flex;
-    justify-content: center;
-}
-
-.flex-column{
-    @extend .just-center;
-    flex-direction: column;
-}
-
-.imgResp{
-    width: 100%;
-    height: auto;
-}
+@import "home.scss";
 
 
-/* header y nav de bootstrap */
+@media only screen and (max-width: 600px) {
 
-header{ 
-        background-color: $colorBg;
-}
+    /* logo Nav bar */
 
-
-.logo{ 
-        width: 13%;
+    .logo{ 
+        width: 30%;
         height: auto;
-}
-
-
-
-  /* MAIN */
-
-main{
-    background-color: rgb(161, 161, 161);
-}
-
-
-.botonNaranja{
-    height: 45px;
-    width: 150px;
-    background-color: rgb(188, 117, 0);
-    text-decoration: none;
-    color: white;
-    padding-top: 11px;
-    padding-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: montserrat;
-    border-radius: 12px;
-}
-
+    }
+ }
