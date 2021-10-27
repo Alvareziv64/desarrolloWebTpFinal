@@ -49,8 +49,8 @@
   }
   
   .hero-title-bg{
-      background-color: rgb(34, 34, 34);
-      border-radius: 8px;
+      background-color: rgba(34, 34, 34, 0.7);
+      border-radius: 5px;
       padding-left: 10px;
       padding-right: 10px;
    
@@ -100,12 +100,16 @@
      .cards-xl{
          display: flex;
          justify-content: space-around;
-         margin-top: 20px;
-         margin-bottom: 20px;
+         padding-top: 20px;
+         padding-bottom: 20px;
      }
 
      .cards-xs{
          display: none;
+     }
+
+     .card:hover{
+        transform:scale(1.05, 1.05);
      }
 
      /* Banner informativo */ 

@@ -1,3 +1,33 @@
+.just-center {
+  display: flex;
+  justify-content: center; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+.resp, .hero-image {
+  width: 100%;
+  height: auto; }
+
+/* banner secciones */
+.banner-text {
+  height: auto; }
+
+.banner-title-bg {
+  padding-top: 5px; }
+
+.banner-image {
+  position: relative;
+  margin-bottom: 0px; }
+
+.banner-title {
+  font-size: 22pt; }
+
+@media only screen and (max-width: 600px) {
+  .banner-title {
+    font-size: 16pt; } }
+
 /* variables */
 .just-center {
   display: flex;
@@ -20,10 +50,14 @@
 
 .banner-image {
   position: relative;
-  margin-bottom: 25px; }
+  margin-bottom: 0px; }
 
 .banner-title {
-  font-size: 28px; }
+  font-size: 22pt; }
+
+@media only screen and (max-width: 600px) {
+  .banner-title {
+    font-size: 16pt; } }
 
 /* Nav Bar */
 header {
@@ -55,8 +89,8 @@ main {
   display: none; }
 
 .hero-title-bg, .banner-title-bg {
-  background-color: #222222;
-  border-radius: 8px;
+  background-color: rgba(34, 34, 34, 0.7);
+  border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px; }
 
@@ -94,11 +128,14 @@ main {
 .cards-xl {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .cards-xs {
   display: none; }
+
+.card:hover {
+  transform: scale(1.05, 1.05); }
 
 /* Banner informativo */
 .info-box {
@@ -195,10 +232,57 @@ footer {
 
 .banner-image {
   position: relative;
-  margin-bottom: 25px; }
+  margin-bottom: 0px; }
 
 .banner-title {
-  font-size: 28px; }
+  font-size: 22pt; }
+
+@media only screen and (max-width: 600px) {
+  .banner-title {
+    font-size: 16pt; } }
+
+.section-cont {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.section-title {
+  font-family: montserrat;
+  font-size: 24pt;
+  color: #fff; }
+
+.section-p {
+  font-family: montserrat;
+  font-size: 12pt;
+  color: #fff; }
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section-xs {
+  display: none; }
+
+.form-label {
+  color: #fff; }
+
+.form-check-label {
+  color: #fff; }
+
+@media only screen and (max-width: 770px) {
+  .section-xl {
+    display: none; }
+  .section-title {
+    font-size: 18pt; }
+  .section-p {
+    font-size: 10pt;
+    font-weight: 100; }
+  .section-xs {
+    display: block; }
+  .section-text {
+    padding-top: 15px; }
+  .section-form {
+    padding-top: 20px; } }
 
 @media only screen and (max-width: 600px) {
   /* logo Nav bar */

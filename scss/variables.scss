@@ -30,11 +30,19 @@ $colorBg: rgb(30, 30, 30);
    .banner-image{
 
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     
 }
 
    .banner-title{
     @extend .hero-title;
-    font-size: 28px;
+    font-size: 22pt;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .banner-title{
+        font-size: 16pt;
+    }
+ }
