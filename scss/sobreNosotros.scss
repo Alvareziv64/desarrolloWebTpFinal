@@ -15,6 +15,9 @@
     font-family: montserrat;
     font-size: 12pt;
     color: #fff;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .section-text{
@@ -33,6 +36,15 @@
 
 .form-check-label{
     color: #fff;
+}
+
+.title-contacto{
+    font-family: montserrat;
+    font-size: 16pt;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 770px){
@@ -59,5 +71,8 @@
     
     .section-form{
         padding-top: 20px;
+        margin-bottom: 20px
     }
+
+
 }

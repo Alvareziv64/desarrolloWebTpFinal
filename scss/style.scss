@@ -2,8 +2,31 @@
 @import "home.scss";
 @import "productos.scss";
 @import "sobreNosotros";
+@import "galeria.scss";
 
 
+
+
+
+
+ /*footer */
+.nav-footer{
+    font-family: montserrat;
+    font-size: 11pt;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.nav-footer:hover{
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+
+.div-nav-footer{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+ 
 @media only screen and (max-width: 600px) {
 
     /* logo Nav bar */
@@ -11,5 +34,9 @@
     .logo{ 
         width: 30%;
         height: auto;
+    }
+
+    .nav-footer{
+        font-size: 8px;
     }
  }
