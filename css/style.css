@@ -197,6 +197,8 @@ footer {
     text-align: center;
     font-family: montserrat;
     border-radius: 12px; }
+  .divisor {
+    font-size: 12pt; }
   /* Destacados */
   .cards-xs {
     display: flex;
@@ -205,8 +207,6 @@ footer {
     padding-bottom: 15px; }
   .cards-xl {
     display: none; }
-  .divisor {
-    font-size: 14pt; }
   /* Banner informativo */
   .info-img {
     width: 35px;
