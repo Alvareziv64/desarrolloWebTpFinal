@@ -124,18 +124,18 @@
      }
 
      .info-img{
-         width: 65px;
-         height: 65px;
+         width: 60px;
+         height: 60px;
      }
 
      .info-text{
          font-family: montserrat;
-         font-size: 10pt;
+         font-size: 9pt;
          text-decoration: none;
          color: #fff;
+         font-weight: 100;
             p{
                 margin-top: 10px;
-                margin-left: 20px;
                 margin-bottom: 10px;
             }
         
@@ -215,6 +215,10 @@
             display: none
         }
 
+        .divisor{
+            font-size: 14pt;
+        }
+
         /* Banner informativo */
 
         .info-img{
@@ -224,7 +228,7 @@
 
         .info-text{
                p{
-                   margin: 5px, 10px, 5px, 10px;
+                  text-align: center;
                }
    
         }
